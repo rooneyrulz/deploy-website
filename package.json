@@ -1,0 +1,25 @@
+{
+  "name": "deploy-website",
+  "version": "1.0.0",
+  "description": "Sample Website Hosted on Gh-Pages",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rooneyrulz/deploy-website.git"
+  },
+  "keywords": [
+    "rooney@tester.com"
+  ],
+  "author": "mr.rooney@rulz.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rooneyrulz/deploy-website/issues"
+  },
+  "homepage": "https://rooneyrulz.github.io/deploy-website",
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
